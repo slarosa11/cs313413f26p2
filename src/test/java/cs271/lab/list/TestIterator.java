@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -21,7 +22,7 @@ public class TestIterator {
   @BeforeEach
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
-    // Question: Also try with a LinkedList - does it make any difference?
+//    list=new LinkedList<Integer>();
 
   }
 

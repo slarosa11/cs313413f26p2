@@ -20,7 +20,7 @@ public class TestList {
   @BeforeEach
   public void setUp() throws Exception {
     list = new ArrayList<Integer>();
-    // Question: Also try with a LinkedList - does it make any difference?
+//    list=new LinkedList<Integer>();
   }
 
   @AfterEach
