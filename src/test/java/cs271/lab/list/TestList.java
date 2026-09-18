@@ -156,6 +156,7 @@ public class TestList {
     // TODO in a single statement using removeAll and List.of,
     // remove items from the list to make the following assertions pass
     // (without touching the assertions themselves)
+    list.removeAll(List.of(33, 44, 55, 66));
     assertEquals(3, list.size());
     assertEquals(List.of(77, 77, 77), list);
   }
